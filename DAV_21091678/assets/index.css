@@ -1,0 +1,103 @@
+.heading{
+    text-align: center;
+    margin-bottom: 2rem;
+    /* font-size: 40px; */
+    /* color: rgba(8,46,93,255); */
+    font-size: 50px;
+    font-weight: 600;
+    /* background-image: linear-gradient(45deg, #553c9a, #ee4b2b); */
+    background-image: conic-gradient(#553c9a 30%, #ee4b2b 40%, #ee4b2b 70%, #00c2cb 80%, #553c9a);
+    font-family: "Asap", sans-serif;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.subheading{
+    font-size : 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.subheading1{
+    font-size : 25px;
+    text-align: left;
+    color: rgba(8,46,93,255);
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.label1{
+    font-size : 18px;
+    color: rgba(8,46,93,255);
+    margin-bottom: 1rem;
+}
+
+.plot1{
+    text-align: center;
+    font-size : 20px;  
+    color: rgba(8,46,93,255);
+    margin-top: 2rem;   
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.newheading1{
+    font-size : 25px;
+    text-align: left;
+    color: rgba(8,46,93,255);
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.label2{
+    font-size : 18px;
+    color: rgba(8,46,93,255);
+    margin-bottom: 1rem;
+    
+}
+
+.plot2{
+    text-align: center;
+    font-size : 20px;  
+    color: rgba(8,46,93,255);
+    margin-top: 2rem;   
+    margin-bottom: 3rem;
+    font-weight: bold;
+}
+
+.custom-tabs-container {
+    width: 98%;
+}
+.custom-tabs {
+    border-top-left-radius: 3px;
+    background-color: #f9f9f9;
+    padding: 0px 80px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.custom-tab {
+    color:#586069;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-top: 3px solid transparent !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 0px !important;
+    background-color: #fafbfc;
+    padding: 12px !important;
+    font-family: "system-ui";
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-tab--selected {
+    color: black;
+    box-shadow: 1px 1px 0px white;
+    border-left: 1px solid lightgrey !important;
+    border-right: 1px solid lightgrey !important;
+    border-top: 3px solid #e36209 !important;
+}
