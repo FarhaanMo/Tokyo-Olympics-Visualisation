@@ -1,5 +1,5 @@
 
-## CMT218 Data Visualisation Assessment 2
+## TOKYO OLYMPICS VISUALISATION
 
 The Visualisation is built using Python's Dash library. This Readme file contains the steps and instructions to run the program files and see the visualisation.
 
